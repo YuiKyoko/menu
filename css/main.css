@@ -1,0 +1,36 @@
+*{
+	box-sizing: border-box;
+	margin:0 auto;
+	font-family: serif;
+}
+
+.button{
+	margin: 9px 6px;
+	float: left;
+	width: 19%;
+	height: 300px;
+	background-color: #86608F;
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px #999;
+	color: #DBD3DC;
+	padding: 30px;
+	text-align: center;
+	text-decoration: none;
+	transition: all 01s ease;
+}
+
+i{
+	font-size: 45px;
+}
+
+h3{
+	margin: 20px;
+}
+.button:hover {
+	transform:scale(1.5);
+	color: #A4A0A5;
+	font-size: 100%;
+	font-family: comic;
+}
+
+
